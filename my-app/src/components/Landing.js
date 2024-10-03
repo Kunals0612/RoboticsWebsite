@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './styles/BubbleAnimation.module.css';
 import Navigation from "./Navigation";
+import { TypewriterEffectSmoothDemo } from "./TypeWriterEffectSmoothDemo";
 function Landing() {
   return (
     <div>
@@ -11,9 +12,9 @@ function Landing() {
       <div key={index} className={styles.bubble}></div>
     ))}
   </div>
-  
+  <TypewriterEffectSmoothDemo/>
 </div>
   );
-}
+}   
 
 export default Landing;

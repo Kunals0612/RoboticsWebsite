@@ -23,33 +23,33 @@ export default function Navigation() {
         />
         <NavbarBrand>
           
-          <p className="font-bold text-inherit text-blue-500">PICT ROBOTICS</p>
+          <a href="/"><p className="font-bold text-inherit text-blue-500">PICT ROBOTICS</p></a>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Team">
             Team
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link color = "primary" href="#">
+          <Link color = "primary" href="/Robocon">
             Robocon
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Achievements">
             Achievements
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Gallary">
             Gallary
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Contact">
             Contact Us
           </Link>
         </NavbarItem>
